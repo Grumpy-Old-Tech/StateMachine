@@ -16,6 +16,6 @@ To evaluate a piece of code only once while the machine is in a particular state
 Each state has transitions defined in setup(). Transitions require two parameters, 
 1. The transition test function that returns a boolean value indicating whether or not the transition occured, 
 2. The state pointer.
-3. There is the option of specifing a delay transition as well, in this case the first parameter is the delay perion in milliseconds
+3. There is the option of specifing a delay transition as well, in this case the first parameter is the delay period in milliseconds
 
 Transitions are evaluated by the state machine after the state logic has executed. If none of the transitions evaluate to true, then the machine stays in the current state. 
