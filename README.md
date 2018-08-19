@@ -3,6 +3,10 @@ This library implements a basic State Machine. The state logic and its transitio
 
 This implementation relies on LinkedList (https://github.com/ivanseidel/LinkedList) to implement the collection of states and the collection of transitions for a state.
 
+Modified and extended By Neville Kripp (GrumpyOldTech)
+Original works by jrullan <jerullan@yahoo.com>
+
+
 ## STATES
 There are two ways of declaring a state logic:
 1. Through a lambda function (an anonymous function) declared in the addState() method.
