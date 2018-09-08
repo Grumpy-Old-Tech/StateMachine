@@ -1,3 +1,8 @@
+Since I created this I have looked at this a biot closer and have started using something a little more light weight.
+
+Fell free to keep using this or take a look at the GOTStateMachine library, as I say its still quite functional however a little lighter weigh when it comes to resources.
+
+
 # StateMachine
 This library implements a basic State Machine. The state logic and its transition's conditions are implemented as functions in your sketch for flexibility. The machine is intended to be deterministic, meaning that you can only be in one state at the time and transitions should occur only when your transition condition functions return true. Please note that if multiple transitions are defined for a state the first one to evaluate to true is the one that modifies the current state. The 
 
